@@ -6,21 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>一只皮卡丘</title>
   <link rel="stylesheet" href="./style.css">
+  <style id="styleTag">
+  </style>
 </head>
 
 <body>
-  <div class="warpper">
-    <div class="nose"></div>
-    <div class="eye left"></div>
-    <div class="eye right"></div>
-    <div class="face left"></div>
-    <div class="face right"></div>
-    <div class="upperLip left"></div>
-    <div class="upperLip right"></div>
-    <div class="wapperlip">
-      <div class="lowerLip"></div>
+  <audio autoplay="autoplay" autostart="false" loop="2" preload="auto" src="./mp3/backgroundmusic.mp3"></audio>
+    <div class="code-wrapper">
+      <pre id="code"></pre>
     </div>
-  </div>
+    <div class="preview-wrapper">
+      <div class="preview">
+        <div class="wrapper">
+          <div class="wrapperlip">
+            <div class="lowerLip"></div>
+          </div>
+          <div class="nose"></div>
+          <div class="eye left"></div>
+          <div class="eye right"></div>
+          <div class="face left"></div>
+          <div class="face right"></div>
+          <div class="upperLip left"></div>
+          <div class="upperLip right"></div>
+
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <button data-speed="slow">慢</button>
+      <button data-speed="normal" class="active">中</button>
+      <button data-speed="fast">快</button>
+    </div>
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
