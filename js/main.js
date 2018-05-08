@@ -182,9 +182,7 @@
         margin-left: -70px;
         overflow: hidden;
     }
-    /*
-    *最后，让我们画出皮卡丘的小舌头～
-    */
+    /*最后，让我们画出皮卡丘的小舌头～*/
     .lowerLip::after{
         content:'';
         position: absolute;
